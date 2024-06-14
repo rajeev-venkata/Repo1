@@ -6,7 +6,7 @@ terraform {
   backend "s3" {
   }
 }
-
+#provider details
 provider "aws" {
     region = var.region
     max_retries = 1
